@@ -1,0 +1,87 @@
+/* ## Disclaimer
+
+This is a solution to a Frontend Mentor challenge. The design and assets are provided by [Frontend Mentor](https://www.frontendmentor.io).  
+I do not own the original design — this is for practice and educational purposes only. */
+
+
+/* Reset spacing and simplify box sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+/* Basic body setup */
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.main-container {
+  background-color: white;
+  width: 90%;
+  max-width: 25rem;
+  border: black solid 1px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: flex-start;
+  box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.main-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-container span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(47, 88%, 63%);
+  width: 5rem;
+  height: 1.7rem;
+  padding: .5rem;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.main-container h3 {
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+.main-container h2 {
+  font-size: clamp(1rem, 2.2vh, 5rem);
+  font-weight: bold;
+}
+
+.main-container p {
+  color: gray;
+}
+
+.greg-hooper-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.greg-hooper-icon {
+  width: 2rem;
+}
